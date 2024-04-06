@@ -19,13 +19,13 @@ let user_answer = await inquirer.prompt([
         name: "from",
         message: "Enter From Currency",
         type: "list",
-        choices: ["USD", "EUR", "GBP", "IND", "PKR", "SAR", "AUD", "BDT", "AED", "QAR", "LKR", "ZAR"],
+        choices: ["USD", "EUR", "GBP", "INR", "PKR", "SAR", "AUD", "BDT", "AED", "QAR", "LKR", "ZAR"],
     },
     {
         name: "to",
         message: "Enter to Currency",
         type: "list",
-        choices: ["USD", "EUR", "GBP", "IND", "PKR", "SAR", "AUD", "BDT", "AED", "QAR", "LKR", "ZAR"],
+        choices: ["USD", "EUR", "GBP", "INR", "PKR", "SAR", "AUD", "BDT", "AED", "QAR", "LKR", "ZAR"],
     },
     {
         name: "amount",
